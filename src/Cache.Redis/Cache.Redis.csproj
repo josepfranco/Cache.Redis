@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+
+        <!-- NUGET METADATA -->
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <VersionSuffix>alpha</VersionSuffix>
+        <PackageVersion>1.0.0</PackageVersion>
+        <Authors>José Franco</Authors>
+        <RepositoryUrl>https://github.com/josepfranco/Cache.Redis</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <!--                -->
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Abstractions.Cache" Version="1.0.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Extensions" />
+    </ItemGroup>
+
+</Project>
