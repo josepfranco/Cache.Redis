@@ -1,2 +1,2 @@
-# Templates.CSharp
-Template repository for C# projects.
+# Cache.Redis
+Redis integration with caching abstractions for C#.
