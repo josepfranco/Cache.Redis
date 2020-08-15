@@ -1,0 +1,113 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Cache.Redis
+  name: Cache.Redis
+  href: api/Cache.Redis.html
+  commentId: N:Cache.Redis
+  fullName: Cache.Redis
+  nameWithType: Cache.Redis
+- uid: Cache.Redis.Configuration
+  name: Cache.Redis.Configuration
+  href: api/Cache.Redis.Configuration.html
+  commentId: N:Cache.Redis.Configuration
+  fullName: Cache.Redis.Configuration
+  nameWithType: Cache.Redis.Configuration
+- uid: Cache.Redis.Configuration.RedisConfiguration
+  name: RedisConfiguration
+  href: api/Cache.Redis.Configuration.RedisConfiguration.html
+  commentId: T:Cache.Redis.Configuration.RedisConfiguration
+  fullName: Cache.Redis.Configuration.RedisConfiguration
+  nameWithType: RedisConfiguration
+- uid: Cache.Redis.Configuration.RedisConfiguration.ConnectionString
+  name: ConnectionString
+  href: api/Cache.Redis.Configuration.RedisConfiguration.html#Cache_Redis_Configuration_RedisConfiguration_ConnectionString
+  commentId: P:Cache.Redis.Configuration.RedisConfiguration.ConnectionString
+  fullName: Cache.Redis.Configuration.RedisConfiguration.ConnectionString
+  nameWithType: RedisConfiguration.ConnectionString
+- uid: Cache.Redis.Configuration.RedisConfiguration.ConnectionString*
+  name: ConnectionString
+  href: api/Cache.Redis.Configuration.RedisConfiguration.html#Cache_Redis_Configuration_RedisConfiguration_ConnectionString_
+  commentId: Overload:Cache.Redis.Configuration.RedisConfiguration.ConnectionString
+  isSpec: "True"
+  fullName: Cache.Redis.Configuration.RedisConfiguration.ConnectionString
+  nameWithType: RedisConfiguration.ConnectionString
+- uid: Cache.Redis.Extensions
+  name: Cache.Redis.Extensions
+  href: api/Cache.Redis.Extensions.html
+  commentId: N:Cache.Redis.Extensions
+  fullName: Cache.Redis.Extensions
+  nameWithType: Cache.Redis.Extensions
+- uid: Cache.Redis.Extensions.ServiceCollectionExtensions
+  name: ServiceCollectionExtensions
+  href: api/Cache.Redis.Extensions.ServiceCollectionExtensions.html
+  commentId: T:Cache.Redis.Extensions.ServiceCollectionExtensions
+  fullName: Cache.Redis.Extensions.ServiceCollectionExtensions
+  nameWithType: ServiceCollectionExtensions
+- uid: Cache.Redis.Extensions.ServiceCollectionExtensions.AddDistributedRedisCache(IServiceCollection,IConfiguration)
+  name: AddDistributedRedisCache(IServiceCollection, IConfiguration)
+  href: api/Cache.Redis.Extensions.ServiceCollectionExtensions.html#Cache_Redis_Extensions_ServiceCollectionExtensions_AddDistributedRedisCache_IServiceCollection_IConfiguration_
+  commentId: M:Cache.Redis.Extensions.ServiceCollectionExtensions.AddDistributedRedisCache(IServiceCollection,IConfiguration)
+  fullName: Cache.Redis.Extensions.ServiceCollectionExtensions.AddDistributedRedisCache(IServiceCollection, IConfiguration)
+  nameWithType: ServiceCollectionExtensions.AddDistributedRedisCache(IServiceCollection, IConfiguration)
+- uid: Cache.Redis.Extensions.ServiceCollectionExtensions.AddDistributedRedisCache*
+  name: AddDistributedRedisCache
+  href: api/Cache.Redis.Extensions.ServiceCollectionExtensions.html#Cache_Redis_Extensions_ServiceCollectionExtensions_AddDistributedRedisCache_
+  commentId: Overload:Cache.Redis.Extensions.ServiceCollectionExtensions.AddDistributedRedisCache
+  isSpec: "True"
+  fullName: Cache.Redis.Extensions.ServiceCollectionExtensions.AddDistributedRedisCache
+  nameWithType: ServiceCollectionExtensions.AddDistributedRedisCache
+- uid: Cache.Redis.RedisCache
+  name: RedisCache
+  href: api/Cache.Redis.RedisCache.html
+  commentId: T:Cache.Redis.RedisCache
+  fullName: Cache.Redis.RedisCache
+  nameWithType: RedisCache
+- uid: Cache.Redis.RedisCache.#ctor(IOptions{Cache.Redis.Configuration.RedisConfiguration})
+  name: RedisCache(IOptions<RedisConfiguration>)
+  href: api/Cache.Redis.RedisCache.html#Cache_Redis_RedisCache__ctor_IOptions_Cache_Redis_Configuration_RedisConfiguration__
+  commentId: M:Cache.Redis.RedisCache.#ctor(IOptions{Cache.Redis.Configuration.RedisConfiguration})
+  name.vb: RedisCache(IOptions(Of RedisConfiguration))
+  fullName: Cache.Redis.RedisCache.RedisCache(IOptions<Cache.Redis.Configuration.RedisConfiguration>)
+  fullName.vb: Cache.Redis.RedisCache.RedisCache(IOptions(Of Cache.Redis.Configuration.RedisConfiguration))
+  nameWithType: RedisCache.RedisCache(IOptions<RedisConfiguration>)
+  nameWithType.vb: RedisCache.RedisCache(IOptions(Of RedisConfiguration))
+- uid: Cache.Redis.RedisCache.#ctor*
+  name: RedisCache
+  href: api/Cache.Redis.RedisCache.html#Cache_Redis_RedisCache__ctor_
+  commentId: Overload:Cache.Redis.RedisCache.#ctor
+  isSpec: "True"
+  fullName: Cache.Redis.RedisCache.RedisCache
+  nameWithType: RedisCache.RedisCache
+- uid: Cache.Redis.RedisCache.GetAsync*
+  name: GetAsync
+  href: api/Cache.Redis.RedisCache.html#Cache_Redis_RedisCache_GetAsync_
+  commentId: Overload:Cache.Redis.RedisCache.GetAsync
+  isSpec: "True"
+  fullName: Cache.Redis.RedisCache.GetAsync
+  nameWithType: RedisCache.GetAsync
+- uid: Cache.Redis.RedisCache.GetAsync``1(System.String,CancellationToken)
+  name: GetAsync<TObject>(String, CancellationToken)
+  href: api/Cache.Redis.RedisCache.html#Cache_Redis_RedisCache_GetAsync__1_System_String_CancellationToken_
+  commentId: M:Cache.Redis.RedisCache.GetAsync``1(System.String,CancellationToken)
+  name.vb: GetAsync(Of TObject)(String, CancellationToken)
+  fullName: Cache.Redis.RedisCache.GetAsync<TObject>(System.String, CancellationToken)
+  fullName.vb: Cache.Redis.RedisCache.GetAsync(Of TObject)(System.String, CancellationToken)
+  nameWithType: RedisCache.GetAsync<TObject>(String, CancellationToken)
+  nameWithType.vb: RedisCache.GetAsync(Of TObject)(String, CancellationToken)
+- uid: Cache.Redis.RedisCache.SetAsync(System.String,System.Object,System.Nullable{TimeSpan},CancellationToken)
+  name: SetAsync(String, Object, Nullable<TimeSpan>, CancellationToken)
+  href: api/Cache.Redis.RedisCache.html#Cache_Redis_RedisCache_SetAsync_System_String_System_Object_System_Nullable_TimeSpan__CancellationToken_
+  commentId: M:Cache.Redis.RedisCache.SetAsync(System.String,System.Object,System.Nullable{TimeSpan},CancellationToken)
+  name.vb: SetAsync(String, Object, Nullable(Of TimeSpan), CancellationToken)
+  fullName: Cache.Redis.RedisCache.SetAsync(System.String, System.Object, System.Nullable<TimeSpan>, CancellationToken)
+  fullName.vb: Cache.Redis.RedisCache.SetAsync(System.String, System.Object, System.Nullable(Of TimeSpan), CancellationToken)
+  nameWithType: RedisCache.SetAsync(String, Object, Nullable<TimeSpan>, CancellationToken)
+  nameWithType.vb: RedisCache.SetAsync(String, Object, Nullable(Of TimeSpan), CancellationToken)
+- uid: Cache.Redis.RedisCache.SetAsync*
+  name: SetAsync
+  href: api/Cache.Redis.RedisCache.html#Cache_Redis_RedisCache_SetAsync_
+  commentId: Overload:Cache.Redis.RedisCache.SetAsync
+  isSpec: "True"
+  fullName: Cache.Redis.RedisCache.SetAsync
+  nameWithType: RedisCache.SetAsync
